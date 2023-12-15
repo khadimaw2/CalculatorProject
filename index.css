@@ -1,0 +1,53 @@
+body{
+    /* background-image: url('im4.jpeg') */
+    background-color:#321f02;
+}
+* {
+    margin: 0;
+    padding: 0;
+  }
+.leCorps{
+    background-color: black;
+    display: flex;
+    height: 600px;
+    width: 500px;
+    margin: 0 auto;
+    border-radius: 4%;
+    margin-top: 50px;
+  flex-direction: column;
+}
+.affichage h1{
+    color: aliceblue;
+   text-align: right;
+    margin-top: 200px;
+    font-size: 50px;
+}
+.clavier{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+   
+}
+button{
+    border-radius: 40%;
+    height: 60px;
+}
+.fonction{
+    background-color:beige;
+    color:  grey;
+}
+.operateur{
+    background-color: coral;
+    color: beige;
+}
+.nombre{
+    background-color: grey;
+    color: beige;
+}
+.exception{
+    grid-column: span 2; 
+}
+#Virgule{
+    background-color: grey;
+    color: beige;
+}
